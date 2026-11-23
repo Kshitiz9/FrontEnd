@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position tags</title>
+    <style>
+      *{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      .card{
+        width: 500px;
+        height: 350px;
+        background-color: red;
+      }
+      .button{
+        width: 500px;
+        height: 600px;
+        background-color: violet;
+      }
+      #new{
+        background-color: blue;
+        position: sticky;
+        top: 0px;
+      }
+      #help{
+        background-color: aquamarine;
+        position: sticky;
+        top: 0;
+        display: inline-block;
+      }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span id="new">new</span>
+      <h1>Card</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro non voluptas perferendis saepe, aspernatur illum sit iste amet aliquam vero ducimus ex. Sed tempore repudiandae quasi nam nostrum adipisci eius?</p>
+    </div>
+    <div class="button">
+        <span id="help">Help</span>   
+    </div>
+</body>
+</html>
