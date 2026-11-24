@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: xx-large;
+
+        }
+        p::first-line{
+            text-decoration: underline;
+        }
+        p::selection{
+            font-family: sans-serif;
+            font-style: italic;
+            background-color: aqua;
+            color: red;
+        }
+        input:enabled{
+            border-radius: 5px;
+            background-color: palevioletred;
+            border-style: double;
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: oblique;
+        }
+        textarea:disabled{
+            background-color: gray;
+            border-radius: 20px;
+            border-style: dashed ;
+            border-color: red ;
+        }
+        div{
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente provident quas deleniti exercitationem placeat, labore doloremque? Incidunt asperiores vero dignissimos sed quas est quos reiciendis inventore earum iure. Fugiat, nihil enim? Fugit hic aliquid odio natus excepturi. Nihil beatae, magnam eligendi mollitia culpa inventore ullam hic sapiente. Vero officia velit officiis modi veniam libero voluptatum suscipit tempora animi, laboriosam quam maxime harum et corporis tenetur. Odit facere quaerat nisi modi temporibus, sit pariatur, perferendis debitis velit ab blanditiis tenetur architecto omnis itaque corporis. Voluptatibus, quaerat ea? Delectus obcaecati asperiores ut. Ea, qui eveniet numquam sapiente quidem animi quod vel corporis!</p>
+    <input type="text">
+    <div><textarea name="" id="" disabled></textarea></div>
+</body>
+</html>
