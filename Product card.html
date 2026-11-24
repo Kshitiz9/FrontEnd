@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        body::selection{
+            background-color: blueviolet;
+            color: red;
+        }
+        body{
+            background-color: lightblue;
+        }
+        .container{
+            display: flex;
+            text-align: center;
+        }
+        .card{
+            
+            margin: 2px;
+            padding: 2px;
+            border-radius: 5px;
+            background-color: beige;
+            width: 25%;
+        }
+        .navbar ul{
+            list-style-type: none;
+            display: flex;
+        }
+        .navbar{
+            display: flex;
+        }
+        li{
+            padding: 5px;
+        }
+        ul{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        h5{
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h5::first-letter{
+            color: red;
+            font-size: large;
+        }
+        p{
+            font-size: x-small;
+        }
+        .buy{
+            background-color: pink;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-radius: 8px;
+            
+        }
+        .buy:hover{
+            transform: scale(1.2);
+            border-radius: 10px;
+            background-color: violet;
+        }
+        .buy:active{
+            background-color: lightblue;
+        }
+        .button{
+            background-color: beige;
+            border-radius: 8px;
+        }
+        .button:hover{
+            transform: scale(1.2);
+            background-color: pink;
+            border-radius: 10px;
+        }
+        .button:active{
+            background-color: violet;
+        }
+        h3{
+            padding-left: 10px;
+
+        }
+        h3::first-letter{
+            color: white;
+            font-size: x-large;
+            font-style: italic;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="adidas-logo-black-symbol-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector (1).webp" width="10%" alt="">
+        <h3>Sports</h3><h3>Shoppee ⚽🏏🏉</h3>
+            <ul>
+                <li><button class="button">🏠</button></li>
+                <li><button class="button">ℹ️</button></li>
+                <li><button class="button">📞</button></li>
+            </ul>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <img src="nike gloves.webp" width="50%" alt="">
+            <h5>Nike gloves</h5>
+            <p>
+                Features a micro Velcro closure, breathable mesh back, and medium-density foam palm padding.
+            </p>
+            <h4>
+                ₹1700
+            </h4>
+            <button class="buy">Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="new balance bat.jpg" width="50%" alt="">
+            <h5>New Balance bat</h5>
+            <p>
+                Suited for beginner to intermediate players wanting control and durability.
+            </p>
+            <h4>
+                ₹3200
+            </h4>
+            <button class="buy">Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="adidas shoes.webp" width="50%" alt="">
+            <h5>Adidas Shoes</h5>
+            <p>
+                It is alightweight, budget-friendly running-inspired shoe built with a breathable mesh upper and an EVA midsole and outsole for everyday comfort and casual wear.
+            </p>
+            <h4>
+                ₹1900
+            </h4>
+            <button class="buy">Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="nivia ball.webp" width="50%" alt="">
+            <h5>Nivia football</h5>
+            <p>
+                A Size 5 thermobonded ball with 32 panels, grained PU surface, and butyl bladder for natural grass and artificial turf.
+            </p>
+            <h4>
+                ₹1100
+            </h4>
+            <button class="buy">Buy Now</button>
+        </div>
+    </div>
+    
+</body>
+</html>
