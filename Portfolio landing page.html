@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body{
+            background-color: #F4F6FA;
+        }
+ .navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 5px;
+    border-style: groove;
+    background-color: #ffffff;
+}
+
+.hero{
+    margin: 5px;
+    padding: 5px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar > section:last-child {
+    margin-left: auto;
+}
+
+section ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+li{
+    list-style-type: none   ;
+}
+.name{
+    font-style: italic;
+    margin-left: 5px;
+    text-shadow: 0 4px 8px;
+}
+.name::first-letter{
+    font-size: x-large ;
+    color: red;
+}
+#secondary{
+    font-size: smaller;
+    font-style: italic;
+}
+.hero{
+    text-align: center;
+    border: 5px;
+    border-style: ridge;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+.projectcard{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+    width: 30%;
+    border: 5px;
+    border-style: groove;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+#main{
+    width: 60px;
+    height: 60px;
+}
+img{
+    width: 100px;
+    height: 70px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+#contact{
+    background-color: #2563EB;
+    color: white;
+    font-style: italic;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}#contact:hover{
+    transform: scale(1.2);
+}
+.but{
+    background-color: ghostwhite;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.but:hover{
+    transform: scale(1.2);
+}
+.info{
+    font-size: 12px;
+    font-style: italic;
+}
+h2{
+    text-shadow: 0 4px 8px;
+}
+.view{
+    border: none;
+    color: white;
+    background-color: #2563EB;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.view:hover{
+    transform: scale(1.01);
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <section class="img">
+            <img id="main" src="cute-man-working-laptop-with-coffee-cartoon-vector-icon-illustration-people-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3869.avif"  alt="">
+            <p class="name">Kshitij </p><p class="name">Godbole</p>
+        </section>
+        </section>
+        <section>
+            <ul>
+                <li><button class="but">ℹ️</button></li>
+                <li><button class="but">💻</button></li>
+                <li><button class="but">📱</button></li>
+            </ul>
+        </section>
+    </nav>
+    <div class="hero">
+        <section>
+            <h2>
+                Proficient in Java
+            </h2>
+            <p id="secondary">Along with many more...</p>
+        </section>
+        <section>
+            <a href="Contact.html">
+                <button id="contact">
+                    Contact me
+                </button>
+            </a>
+        </section>
+    </div>
+    <div class="projectcard">
+        <div class="card">
+            <img src="ai detector.png" alt="">
+            <h5>AI detector</h5>
+            <p class="info">It detects whether AI is used in your work.</p>
+            <button class="view">View Project</button>
+        </div>
+        <div class="card">
+            <img src="ai writer.jpg" alt="">
+            <h5>Email writer using AI</h5>
+            <p class="info">Writes an email by its own using AI</p>
+            <button class="view">View Project</button>
+        </div>
+        <div class="card"> 
+             <img src="fitness-tracker-app-design-concept-illustration-vector.jpg" alt="">
+            <h5>Fitness Tracker</h5>
+            <p class="info">Let's you track your activities</p>
+            <button class="view">View Project</button>
+        </div>
+    </div>
+</body>
+</html>

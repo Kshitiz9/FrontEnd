@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .form{
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            text-align: center;
+        }
+        button{
+            margin: 5px;
+            border-radius: 5px;
+            font-style: italic;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: none;
+            padding: 5px;
+            background-color: gray;
+            color: white;
+        }
+        legend::first-letter{
+            font-size: x-large;
+        }
+        legend{
+            font-style: italic;
+        }
+        button:hover{
+            transform: scale(1.2);
+        }
+        label{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="">
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter your full name" maxlength="40">
+                <br><br>
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your email" maxlength="30">
+                <br><br>
+                <label for="">Message</label>
+                <textarea name="" id="" maxlength="200" placeholder="Enter your message"></textarea>
+                <br><br>
+                <div class="button"><button type="submit">Submit</button><button type="reset">Reset</button></div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
